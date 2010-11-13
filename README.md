@@ -1,4 +1,4 @@
-== No More Sharecropping!
+## No More Sharecropping!
 
 Originally posted at [http://iamshane.com/notes/2010/11/7/1/no-more-sharecropping](http://iamshane.com/notes/2010/11/7/1/no-more-sharecropping).
 
@@ -18,7 +18,7 @@ Then as we published all of our content on other services, we became dependent o
 
 And of course, there's Geocities. With all of its neon colors, tiled background, sparkly text and animated gifs, Geocities was a ghetto. But it was a huge ghetto. And now that Yahoo turned it off, it's gone. Imagine if every ghetto, barrio, favela and shanty town was literally taken away in one moment. That's a lot of very homeless people (even more homeless than before).
 
-Enough already!
+## Enough already!
 
 It's time for something better. It's time for a web where any person can easily create a website and publish all kinds of content there. It's time for us to own all of our data, beholden to no one. It's time that our personal diy rolled websites play nice and integrate closely into external services. It's time for a real sense of privacy, where not only is our data "protected" from other seeing it, it's also encrypted at the source so that even if seized by criminal or government alike it'd do them no good. It's time for easy granular sharing controls allowing to grant access to some content to some people, not all content to all people or to no one.
 
@@ -26,33 +26,33 @@ There will come a time in the not too distant future where having a website will
 
 Instead of sharecroppers, we must become homesteaders.
 
-Some Additional Thoughts
+### Some Additional Thoughts
 
-As a person I want
+#### As a person I want
 
 - to have a website
 - to own all of my data
 - to participate in online communities
 
-As a user I want
+#### As a user I want
 
 - to publish everything to my website
 - my website to redistribute my content to other sites
 - my redistributed content to link back to my site
 - to choose which sites to redistribute to
 
-As a developer I want
+#### As a developer I want
 
 - to add outbound sites easily with a plugin
 - to add inbound formats for publish with
 
-=== Notes
+#### Notes
 
 - Installation should be easy, at least as easy as Wordpress
 - Setup should short and simple
 - Existing tools should publish to my website
 
-New Blog Post Workflow
+#### New Blog Post Workflow
 
 - I open MarsEdit
 - I write a post
@@ -65,7 +65,7 @@ New Blog Post Workflow
 - My website redistributes a copy of my post with the short url at the end to Wordpress, Tumblr, gist.github.com, etc
 - My website posts the short url and title to Twitter, Facebook, status.net, etc
 
-New Status Update Workflow
+#### New Status Update Workflow
 
 - I open Tweetie
 - I write my tweet
