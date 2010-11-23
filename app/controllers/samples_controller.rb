@@ -1,9 +1,6 @@
 class SamplesController < ApplicationController
-  def note
-    @tags = ["homesteading", "data", "website", "idea", "open web", "personal web", "snowflake"]
-  end
-
-  def status
-    @tags = ["larb"]
-  end
+  ACTIVITIES = {
+    :note   => ["larb"],
+    :status => ["homesteading", "data", "website", "idea", "open web", "personal web", "snowflake"]
+  }
 end
