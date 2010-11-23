@@ -1,0 +1,28 @@
+<footer>
+  <h1 class="vcard">
+    <a class="email" href="mailto:veganstraightedge@gmail.com"><span class="fn author">Shane Becker</span></a>
+    <span class="verb">published</span>
+    <span class="little-word">this</span>
+    <%= link_to action_name, action_name.pluralize, :class => "object-type" %>
+    <span class="little-word">on</span>
+
+    <time datetime="<%= Time.now.strftime("%Y-%H-%MT%H:%M") %>" pubdate>
+      <%= Time.now.strftime("%B %d, %Y") %>
+      <span class="little-word">at</span>
+      <%= Time.now.strftime("%I:%M:%S") %>
+    </time>
+  </h1><!-- .vcard -->
+
+  <p class="tags">
+    Tagged <span class="little-word">with</span>
+
+    <a href="/tags/sharecropping" rel="tag">sharecropping</a>
+    <a href="/tags/homesteading" rel="tag">homesteading</a>
+    <a href="/tags/data" rel="tag">data</a>
+    <a href="/tags/website" rel="tag">website</a>
+    <a href="/tags/idea" rel="tag">idea</a>
+    <a href="/tags/open+web" rel="tag">open web</a>
+    <a href="/tags/personal+web" rel="tag">personal web</a>
+    <a href="/tags/snowflake" rel="tag">snowflake</a>
+  </p> <!-- .tags -->
+</footer>
