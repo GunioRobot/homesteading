@@ -16,13 +16,8 @@
   <p class="tags">
     Tagged <span class="little-word">with</span>
 
-    <a href="/tags/sharecropping" rel="tag">sharecropping</a>
-    <a href="/tags/homesteading" rel="tag">homesteading</a>
-    <a href="/tags/data" rel="tag">data</a>
-    <a href="/tags/website" rel="tag">website</a>
-    <a href="/tags/idea" rel="tag">idea</a>
-    <a href="/tags/open+web" rel="tag">open web</a>
-    <a href="/tags/personal+web" rel="tag">personal web</a>
-    <a href="/tags/snowflake" rel="tag">snowflake</a>
-  </p> <!-- .tags -->
+    <% @tags.each do |tag| %>
+      <%= link_to tag, "/tags/#{tag.gsub(/\s/, '+')}", :rel => "tag" %>
+    <% end unless @tags.blank? %>
+  </p><!-- .tags -->
 </footer>
