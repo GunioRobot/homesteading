@@ -3,7 +3,7 @@
     <a class="email" href="mailto:veganstraightedge@gmail.com"><span class="fn author">Shane Becker</span></a>
     <span class="verb">published</span>
     <span class="little-word">this</span>
-    <%= link_to action_name, action_name.pluralize, :class => "object-type" %>
+    <%= link_to content_type, "/#{content_type.pluralize}", :class => "object-type" %>
     <span class="little-word">on</span>
 
     <time datetime="<%= Time.now.strftime("%Y-%H-%MT%H:%M") %>" pubdate>
