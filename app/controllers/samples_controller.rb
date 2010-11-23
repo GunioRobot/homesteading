@@ -3,7 +3,8 @@ class SamplesController < ApplicationController
   ACTIVITIES = {
     :note   => ["larb"],
     :status => ["homesteading", "data", "website", "idea", "open web", "personal web", "snowflake"],
-    :photo  => ["portland","nintendo","video games","shelf","nate","n8","8-bit","collection","shelf"]
+    :photo  => ["portland","nintendo","video games","shelf","nate","n8","8-bit","collection","shelf"],
+    :video  => ["cat", "dog", "puppie", "pit bull", "bike house", "salt lake city"]
   }
 
   before_filter :set_tags
