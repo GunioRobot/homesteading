@@ -1,0 +1,71 @@
+SHORT URL NAMESPACES:
+- a audio
+- b bookmark: pinboard, delicious,
+- c code
+- d
+- e event
+- f file
+- g checkin: geolocation, foursquare, gowalla
+- h hyperlink: outbound shorturl, external redirects
+- i identifier
+  - /i/t/unicorn    => /tags/unicorn
+  - /i/m/tt0084827  => imdb.com/title/tt0084827
+  - /i/i/0881791326 => ISBN numbers
+  - /i/a/0881791326 => ASIN numbers
+  - /i/oc           => openid connect provider
+  - /i/oa2          => oauth provider
+- j
+- k list/playlist/folder/photo album (a playlist is just a particular kind of list, etc)
+- l SKIPPED for readability ambiguous lower L/1
+- m message: email lists
+- n note/article/post/comment: wordpress, facebook, tumblr. comment => salmon
+- o
+- p photo: flickr, facebook,
+- q quote
+- r review
+- s slides/presentation
+- t text/status: twitter, facebook,
+- u
+- v video: vimeo, youtube, flickr
+- w
+- x place: foursquare, gowalla, (x marks the spot)
+- y
+- z product (like a zshop on amazon)
+
+PAGINATION:
+for all namespaces
+- /a/3 => /audio/page/3
+
+OBJECTS:
+- article
+- audio
+- bookmark
+- comment
+- file
+- folder
+- group
+- list
+- note
+- person
+- photo
+- photo album
+- place
+- playlist
+- product
+- review
+- service
+- status
+- video
+
+VERBS:
+- favorite
+- follow
+- like
+- friend
+- join
+- play
+- post
+- save
+- share
+- tag
+- update
