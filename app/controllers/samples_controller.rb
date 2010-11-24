@@ -7,7 +7,8 @@ class SamplesController < ApplicationController
     :video    => ["cat", "dog", "puppie", "pit bull", "bike house", "salt lake city"],
     :audio    => ["bramble", "slc", "salt lake city", "james miska", "folk", "diy"],
     :quote    => ["crimethinc", "anarchism", "without adjectives"],
-    :bookmark => ["arcade fire", "html5", "google", "chrome", "experiment", "toread", "private"]
+    :bookmark => ["arcade fire", "html5", "google", "chrome", "experiment", "toread", "private"],
+    :list     => ["zombies", "28 days later", "stacey", "10 rules"]
   }
 
   before_filter :set_tags
