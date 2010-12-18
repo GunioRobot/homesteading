@@ -1,6 +1,6 @@
 SHORT URL NAMESPACES:
-- a audio
-- b bookmark: pinboard, delicious,
+✓ a audio
+✓ b bookmark: pinboard, delicious,
 - c code
 - d
 - e event
@@ -15,18 +15,18 @@ SHORT URL NAMESPACES:
   - /i/oc           => openid connect provider
   - /i/oa2          => oauth provider
 - j
-- k list/playlist/folder/photo album (a playlist is just a particular kind of list, etc)
+✓ k list/playlist/folder/photo album (a playlist is just a particular kind of list, etc)
 - l SKIPPED for readability ambiguous lower L/1
 - m message: email lists
-- n note/article/post/comment: wordpress, facebook, tumblr. comment => salmon
+✓ n note/article/post/comment: wordpress, facebook, tumblr. comment => salmon
 - o
-- p photo: flickr, facebook,
-- q quote
+✓ p photo: flickr, facebook,
+✓ q quote
 - r review
 - s slides/presentation
-- t text/status: twitter, facebook,
+✓ t text/status: twitter, facebook,
 - u
-- v video: vimeo, youtube, flickr
+✓ v video: vimeo, youtube, flickr
 - w
 - x place: foursquare, gowalla, (x marks the spot)
 - y
