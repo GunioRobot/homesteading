@@ -1,6 +1,8 @@
 <article class="hentry code">
   <header>
-    <h1 class="entry-title">Awesome Aaron Patterson Helper Method for a Rails App</h1>
+    <a rel="bookmark" href="<%= link_to_post_path("code") %>">
+      <h1 class="entry-title">Awesome Aaron Patterson Helper Method for a Rails App</h1>
+    </a>
   </header>
 
   <section class="entry-content">
@@ -17,5 +19,5 @@ end
     </p>
   </section>
 
-  <%= render :partial => 'footer', :locals => { :content_type => "code" } %>
+  <%= render :partial => 'footer', :locals => { :content_type => content_type } %>
 </article>

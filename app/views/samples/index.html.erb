@@ -1,8 +1,8 @@
 <ol class="hfeed">
-  <% SamplesController::ACTIVITIES.each do |object_type, tags| %>
+  <% SamplesController::ACTIVITIES.each do |content_type, tags| %>
     <li>
       <% @tags = tags %>
-      <%= render :template => "samples/#{object_type}" %>
+      <%= render :template => "samples/#{content_type}", :locals => { :content_type => content_type.to_s } %>
     </li>
   <% end %>
 </ol>
