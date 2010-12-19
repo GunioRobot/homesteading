@@ -1,8 +1,8 @@
 <article class="hentry code">
   <header>
-    <a rel="bookmark" href="<%= link_to_post_path(@content_type) %>">
+    <%= link_to sample_post_path(@content_type), html_options = { :rel => "bookmark" } do %>
       <h1 class="entry-title">Awesome Aaron Patterson Helper Method for a Rails App</h1>
-    </a>
+    <% end %>
   </header>
 
   <section class="entry-content">

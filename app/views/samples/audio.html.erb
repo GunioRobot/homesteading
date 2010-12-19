@@ -1,9 +1,9 @@
 <article class="hentry hmedia haudio audio">
   <header class="vcard">
-    <a rel="bookmark" href="<%= link_to_post_path(@content_type) %>">
+    <%= link_to sample_post_path(@content_type), html_options = { :rel => "bookmark" } do %>
       <h1 class="entry-title fn">The Bridge</h1>
       <h2 class="contributor">by <span class="n">Bramble</span></h2>
-    </a>
+    <% end %>
   </header>
 
   <section class="entry-content">

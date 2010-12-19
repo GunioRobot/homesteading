@@ -1,11 +1,11 @@
 <article class="hentry note">
   <header>
-    <a rel="bookmark" href="<%= link_to_post_path(@content_type) %>">
+    <%= link_to sample_post_path(@content_type), html_options = { :rel => "bookmark" } do %>
       <hgroup>
         <h1 class="entry-title">No More Sharecropping!</h1>
         <h2 class="entry-title">Onward to Homesteading</h2>
       </hgroup>
-    </a>
+    <% end %>
   </header>
 
   <section class="entry-content">
