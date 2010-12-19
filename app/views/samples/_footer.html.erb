@@ -1,5 +1,5 @@
 <footer>
-  <h1 class="vcard">
+  <h1 class="vcard reviewer">
     <a class="email" href="mailto:veganstraightedge@gmail.com">
       <span class="fn author">Shane Becker</span>
     </a>
@@ -9,7 +9,7 @@
     <span class="little-word">on</span>
 
     <%= link_to sample_post_path(@content_type), html_options = { :rel => "bookmark" } do %>
-      <time datetime="<%= Time.now.strftime("%Y-%H-%MT%H:%M") %>" pubdate>
+      <time datetime="<%= Time.now.strftime("%Y-%H-%MT%H:%M") %>" pubdate class="dtreviewed">
         <%= Time.now.strftime("%B %d, %Y") %>
         <span class="little-word">at</span>
         <%= Time.now.strftime("%I:%M") %>

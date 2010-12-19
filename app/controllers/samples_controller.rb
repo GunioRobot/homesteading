@@ -10,6 +10,7 @@ class SamplesController < ApplicationController
     :note     => ["larb"],
     :photo    => ["portland","nintendo","video games","shelf","nate","n8","8-bit","collection","shelf"],
     :quote    => ["crimethinc", "anarchism", "without adjectives"],
+    :review   => ["spider-man", "ultimate spider-man", "ultimate", "comic", "bendis", "bagley", "babe ruth", "hank aaron", "stan lee", "jack kirby"],
     :status   => ["homesteading", "data", "website", "idea", "open web", "personal web", "snowflake"],
     :video    => ["cat", "dog", "puppie", "pit bull", "bike house", "salt lake city"]
   }

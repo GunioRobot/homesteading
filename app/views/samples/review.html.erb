@@ -1,0 +1,38 @@
+<article class="hentry hreview review">
+  <header>
+    <%= link_to sample_post_path(@content_type), html_options = { :rel => "bookmark" } do %>
+      <hgroup class="entry-title">
+        <h1>Review of Ultimate Spider-man</h1>
+        <h2>Volumne 1, Issues 1-111</h2>
+      </hgroup>
+    <% end %>
+  </header>
+
+  <section class="entry-content">
+    <p class="item">
+      <span class="fn">Ultimate Spider-man Volumne 1, Issues 1-102</span>
+      in hardcover books
+      <a class="url" href="http://amazon.com/dp/078510898X" title="Amazon.com: Ultimate Spider-Man, Vol. 1">1</a>,
+      <a class="url" href="http://amazon.com/dp/0785110615" title="Amazon.com: Ultimate Spider-Man, Vol. 2">2</a>,
+      <a class="url" href="http://amazon.com/dp/0785111565" title="Amazon.com: Ultimate Spider-Man, Vol. 3">3</a>,
+      <a class="url" href="http://amazon.com/dp/0785112499" title="Amazon.com: Ultimate Spider-Man, Vol. 4">4</a>,
+      <a class="url" href="http://amazon.com/dp/0785114017" title="Amazon.com: Ultimate Spider-Man, Vol. 5">5</a>,
+      <a class="url" href="http://amazon.com/dp/0785118411" title="Amazon.com: Ultimate Spider-Man, Vol. 6">6</a>,
+      <a class="url" href="http://amazon.com/dp/078512148X" title="Amazon.com: Ultimate Spider-Man, Vol. 7">7</a>,
+      <a class="url" href="http://amazon.com/dp/078512604X" title="Amazon.com: Ultimate Spider-Man, Vol. 8">8</a>
+      and
+      <a class="url" href="http://amazon.com/dp/0785130810" title="Amazon.com: Ultimate Spider-Man, Vol. 9">9</a>.
+    </p>
+
+    <p class="description">
+      Just like Babe Ruth's career home-run record had to be broken by Hank Aaron, Jack Kirby and Stan Lee's longest consecutive run by an artist/writer would be broken by Brian Michael Bendis and Mark Bagley (#102). It only took four decades for someone to beat it. Not bad considering when Spiderman launched the Ultimate line in 2000, it had more nay-sayers than true-believers. This book captures everything that the spirit of Spiderman is; Peter Park is young, still in high school, has girlfriend and attendance problems, he has to lie to Aunt May constantly, his guilt complex is as big as his ensemble of villains (which are his responsibility in his mind), Gwen Stacy is a great tragedy, Mary Jane Watson tells him in a classic homage moment "Face it tiger, you just hit the jackpot." Classic stuff without 40 years of backstory, a marriage and the Spider-mobile. This book is young, fun, full of heart-break and triumph; just like any good Spidey book should be. Oh&hellip; and there are clones, too.
+    </p>
+
+    <meter value="4" min="0" max="5" low="0" high="5" optimum="5">
+      <span class="rating">4</span> out of 5 stars
+      &#10029;&#10029;&#10029;&#10029;&#10025;
+    </meter>
+  </section>
+
+  <%= render :partial => 'footer' %>
+</article>
