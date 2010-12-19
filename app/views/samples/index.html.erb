@@ -2,7 +2,8 @@
   <% SamplesController::ACTIVITIES.each do |content_type, tags| %>
     <li>
       <% @tags = tags %>
-      <%= render :template => "samples/#{content_type}", :locals => { :content_type => content_type.to_s } %>
+      <% @content_type = content_type.to_s %>
+      <%= render :template => "samples/#{content_type}" %>
     </li>
   <% end %>
 </ol>

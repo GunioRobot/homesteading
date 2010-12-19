@@ -1,4 +1,5 @@
 class SamplesController < ApplicationController
+  # HACK everything in the SamplesController and samples views are just for illustration
   # this hash constant is avoid using the database for the samples
   ACTIVITIES = {
     :audio    => ["bramble", "slc", "salt lake city", "james miska", "folk", "diy"],
@@ -13,8 +14,13 @@ class SamplesController < ApplicationController
   }
 
   before_filter :set_tags
+  before_filter :set_content_type
 
   def set_tags
     @tags = SamplesController::ACTIVITIES[action_name.to_sym]
+  end
+
+  def set_content_type
+    @content_type = action_name
   end
 end
