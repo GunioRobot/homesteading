@@ -6,11 +6,13 @@
     <%= link_to @content_type, "/#{@content_type.pluralize}", :class => "object-type" %>
     <span class="little-word">on</span>
 
-    <time datetime="<%= Time.now.strftime("%Y-%H-%MT%H:%M") %>" pubdate>
-      <%= Time.now.strftime("%B %d, %Y") %>
-      <span class="little-word">at</span>
-      <%= Time.now.strftime("%I:%M") %>
-    </time>
+    <a rel="bookmark" href="<%= link_to_post_path(@content_type) %>">
+      <time datetime="<%= Time.now.strftime("%Y-%H-%MT%H:%M") %>" pubdate>
+        <%= Time.now.strftime("%B %d, %Y") %>
+        <span class="little-word">at</span>
+        <%= Time.now.strftime("%I:%M") %>
+      </time>
+    </a>
   </h1><!-- .vcard -->
 
   <p class="tags">
