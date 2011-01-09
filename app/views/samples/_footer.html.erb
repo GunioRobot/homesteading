@@ -21,7 +21,7 @@
     Tagged <span class="little-word">with</span>
 
     <% @tags.each do |tag| %>
-      <%= link_to tag, "/tags/#{tag.gsub(/\s/, '+')}", :rel => "tag" %>
+      <%= link_to tag, "/tags/#{tag.gsub(/\s/, '+')}", :rel => "tag", :class => "category" %>
     <% end unless @tags.blank? %>
   </p><!-- .tags -->
 </footer>
