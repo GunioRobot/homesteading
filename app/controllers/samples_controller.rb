@@ -5,6 +5,7 @@ class SamplesController < ApplicationController
     :audio    => ["bramble","slc","salt lake city","james miska","folk","diy"],
     :bookmark => ["arcade fire","html5","google","chrome","experiment","toread","private"],
     :code     => ["ruby","rails","helper"],
+    :checkin  => ["blank spaces", "rb.la", "nerd club", "la", "los angeles"],
     :event    => ["godspeed","music","show","live","los angeles","la"],
     :list     => ["zombies","28 days later","stacey","10 rules"],
     :note     => ["larb"],
