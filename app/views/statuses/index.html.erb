@@ -1,0 +1,13 @@
+<ol>
+  <% @statuses.each do |status| %>
+    <li>
+      <article class="hentry status">
+        <header>
+          <h1 class="entry-title entry-content"><%= status.content %></h1>
+        </header>
+      </article>
+    </li>
+  <% end %>
+</ol>
+
+<%= link_to "New Status", new_status_path %>
