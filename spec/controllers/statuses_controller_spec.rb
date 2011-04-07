@@ -12,4 +12,21 @@ describe StatusesController do
       assigns(:status).should be_new_record
     end
   end
+  
+  describe "#create" do
+    it "creates a status" do
+      expect { post :create, :status => { :content => "My first toot!" } }.should change(Status, :count).by(1)
+    end
+    
+    it "redirects to #index" do
+      post :create, :status => { :content => "My first toot!" }
+      response.should redirect_to statuses_path
+    end
+  end
+  
+  describe "#index" do
+    it "succeeds" do
+      get :index
+    end
+  end
 end
