@@ -79,4 +79,4 @@ Instead of sharecroppers, we must become homesteaders.
 
 There's surely stuff that I've thought about but am not thinking of right now. I'll write more as it comes to me. It's also worth noting that while I had a lot of these thoughts independent of talking with others, it turns out that more people are thinking roughly the same stuff. Discussions with Tantek really helped my thoughts coalesce, especially the personal url shortener work that he's done. He's using ttk.me with a one letter namespace, 3 character base60 number of days since epoch and one digit nth item of that type on that day. I am too. I jacked that all from him and ported his JavaScript / PHP version to Ruby. Thanks, Tantek. I've also talked a fair bit with Brian Ford and Rich Kilmer about all this stuff. Both had the idea of bundling the software package up into a VM instance that one could just throw at some server and hit the ground running. I hadn't thought of that before. Thanks for that, you two.
 
-Let's get together and make this thing. Ruby folks, there will be a birds-of-feather to discuss ideas. Get into it.
+Let's get together and make this thing. Get into it.

@@ -9,5 +9,7 @@ module Homesteading
     config.action_view.javascript_expansions[:defaults] = %w()
     config.encoding = "utf-8"
     config.filter_parameters += [:password]
+
+    config.generators.test_framework :rspec
   end
 end
