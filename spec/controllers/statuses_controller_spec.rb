@@ -2,7 +2,7 @@ require "spec_helper"
 
 describe StatusesController do
   describe "GET #new" do
-    it "succeds" do
+    it "succeeds" do
       get :new
       response.should be_success
     end
