@@ -1,0 +1,45 @@
+{
+  "name" : "Vimeo",
+  "url" : "http://vimeo.com",
+  "api_root_url" : "http://api.vimeo.com",
+  "callback_urls" : {
+    "success"
+    "fail"
+    "error"
+  },
+  "auth" : {
+    "type" : "oauth2",
+    ""
+  }
+  "mappings" : {
+    "content" : "body",
+    "content" : "body",
+    "content" : "body",
+    "content" : "body",
+    "content" : "body",
+    "content" : "body"
+  }
+}
+
+{
+  "name" : "Flickr",
+  "url" : "http://flickr.com",
+  "api_root_url" : "http://flickr.com/v2/api",
+  "callback_urls" : {
+    "success"
+    "fail"
+    "error"
+  },
+  "auth" : {
+    "type" : "flickr_auth",
+    ""
+  }
+  "mappings" : {
+    "title" : "heading",
+    "content" : "body",
+    "content" : "body",
+    "content" : "body",
+    "content" : "body",
+    "content" : "body"
+  }
+}
